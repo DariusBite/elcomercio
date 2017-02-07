@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El Comercio | Ordenador de serie</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="js/functions.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Ordenador de serie</h1>
+  </header>
+  <main role="main">
+    <div class="form-group">
+      <label for="serie">Ingresa una serie de números separados por espacios y presiona enter</label>
+      <input type="text" name="serie" id="serie" onkeypress="return isNumber(event)">
+    </div>
+    <div class="resultados"></div>
+    <button>Ordenar</button>
+  </main>
+  <footer>
+    Mario Martín Albán Barba
+  </footer>
+</body>
+</html>
